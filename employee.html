@@ -1,0 +1,84 @@
+_______________________
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Directory — NexusHR</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ambient">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+</div>
+<nav class="navbar" id="navbar"></nav>
+<main style="position:relative;z-index:1;">
+  <div class="page-header">
+    <div class="page-eyebrow">Employee Directory</div>
+    <h1 class="page-title">Your Team</h1>
+    <p class="page-sub">All active employees — live from DynamoDB</p>
+  </div>
+  <div class="toolbar">
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" class="search-input" id="searchInput"
+        placeholder="Search by name, role, department…">
+    </div>
+    <div class="count-badge" id="countBadge">Loading…</div>
+  </div>
+  <div class="employee-grid-wrap">
+    <div class="employee-grid" id="employeeGrid">
+      <!-- Skeleton stays same -->
+      <div class="skeleton-card">
+        <div style="display:flex;gap:12px;align-items:center;margin-bottom:18px">
+          <div class="skeleton sk-avatar"></div>
+          <div style="flex:1">
+            <div class="skeleton sk-line" style="width:70%"></div>
+            <div class="skeleton sk-line-sm"></div>
+          </div>
+        </div>
+        <div class="skeleton sk-line"></div>
+        <div class="skeleton sk-line" style="width:80%"></div>
+      </div>
+    </div>
+  </div>
+</main>
+<!-- Delete Modal -->
+<div class="modal-overlay" id="deleteModal">
+  <div class="modal">
+    <h3>⚠️ Remove Employee?</h3>
+    <p>This will permanently delete <span id="modalEmpId"></span>.</p>
+    <div class="modal-actions">
+      <button onclick="closeModal()">Cancel</button>
+      <button id="confirmDelBtn" onclick="confirmDelete()">Delete</button>
+    </div>
+  </div>
+</div>
+<!-- Lightbox -->
+<div class="lightbox-overlay" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close">✕</button>
+  <div class="lightbox-inner" onclick="event.stopPropagation()">
+    <img id="lightboxImg" src="" class="lightbox-img">
+    <div class="lightbox-caption">
+      <div id="lightboxName"></div>
+      <div id="lightboxMeta"></div>
+    </div>
+  </div>
+</div>
+<div class="toast-container" id="toastContainer"></div>
+<footer class="footer">
+  <div class="footer-inner">NexusHR — Built with ❤️ by Yash</div>
+</footer>
+<!-- ✅ ONLY THESE SCRIPTS (CRITICAL FIX) -->
+<script src="auth.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+_______________________
+somehow im getting 2 light-dark changing button
+
+
+im getting two light-dark button, fix this and guve the code
