@@ -1,2 +1,24 @@
-# NexusHRapp
-NexusHR is a serverless employee management system built using AWS Cognito, Lambda, API Gateway, DynamoDB, and S3. It features secure authentication, CRUD operations, and profile image uploads through a responsive web interface, demonstrating practical cloud-native architecture and backend integration.
+# NexusHR 🚀
+
+A full-stack serverless employee management system built using AWS.
+
+## 🔧 Tech Stack
+- AWS Cognito (Authentication)
+- AWS Lambda (Backend)
+- API Gateway (REST APIs)
+- DynamoDB (Database)
+- S3 (Image storage)
+- HTML, CSS, JavaScript (Frontend)
+
+## ✨ Features
+- Secure login with Cognito
+- Add, update, delete employees
+- View employee directory
+- Upload and display profile images
+- Serverless architecture
+
+## 🌐 Live Demo
+(Add your deployed link here)
+
+## 📌 Author
+Yash Nimbalkar — Computer Engineering student with a strong interest in cloud computing, backend systems, and building scalable AWS-based applications.
