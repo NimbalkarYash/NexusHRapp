@@ -70,7 +70,7 @@ Frontend (Netlify) → API Gateway → Lambda → DynamoDB
 
 ## 📌 Author
 
-Yash — Computer Engineering student focused on cloud computing and full-stack development, with hands-on experience building serverless applications on AWS.
+Yash Nimbalkar — Computer Engineering student focused on cloud computing and full-stack development, with hands-on experience building serverless applications on AWS.
 
 ---
 
