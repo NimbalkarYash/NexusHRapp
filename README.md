@@ -145,19 +145,6 @@ const config = {
 | Authentication | AWS Cognito |
 
 ---
-
-## 📸 Screenshots
-
-> Add screenshots here to showcase the UI.
-
-<!--
-![Login](docs/screenshots/login.png)
-![Employee Directory](docs/screenshots/directory.png)
-![Add Employee](docs/screenshots/add-employee.png)
--->
-
----
-
 ## 🔮 Future Improvements
 
 - Search, filter, and pagination in the employee directory
